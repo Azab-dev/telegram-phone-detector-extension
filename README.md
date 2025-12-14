@@ -8,6 +8,9 @@ A Chrome extension that detects phone numbers inside Telegram Web chats.
 - Copy phone numbers with one click
 - Open numbers using tel links
 - Auto-detection when messages change
+- Works with Telegram Web (K & Z versions)
+- Uses MutationObserver for real-time updates
+
 
 ## How it works
 - Content script scans visible text on Telegram Web
