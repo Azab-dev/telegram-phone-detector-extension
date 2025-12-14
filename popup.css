@@ -1,0 +1,66 @@
+body {
+  width: 260px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 12px;
+  background: #f7f7f7;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background: white;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 6px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #0088cc;
+  color: white;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #0077b5;
+}
+
+#numbersList {
+  margin-top: 10px;
+  font-size: 13px;
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  max-height: 130px;
+  overflow-y: auto;
+}
+.number-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-top: 8px;
+}
+
+.number-row .actions button {
+  padding: 5px 8px;
+  margin-left: 4px;
+  font-size: 12px;
+}
